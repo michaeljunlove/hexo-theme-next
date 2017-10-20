@@ -60,16 +60,20 @@
 }
 
 .feed-link {
-  border-top: 1px dotted $grey-light;
-  border-bottom: 1px dotted $grey-light;
+  //border-top: 1px dotted $grey-light;
+  //border-bottom: 1px dotted $grey-light;
   text-align: center;
 }
 
 .feed-link a {
-  display: block;
+  //display: block;
+  //color: $orange;
+  //border: none;
+  display: inline-block;
+  padding: 0 15px;
   color: $orange;
-  border: none;
-
+  border: 1px solid $orange;
+  border-radius: 4px;
   &:hover {
     background: none;
     color: darken($orange, 20%);
@@ -90,7 +94,7 @@
   a {
     display: block;
     text-decoration: none;
-
+    text-align: center;
     &:hover {
       border-radius: 4px;
       background: $gainsboro;
